@@ -101,7 +101,7 @@ class Portfolio:
         
     
     def volatility(self):
-        """Calculates volatility by taking standard deviation of weoghted returns"""
+        """Calculates volatility by taking standard deviation of weighted returns"""
         vol = np.std(self.retData["Weighted Return"])
         return vol
     
